@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image:url("background.jpg");
+  }
+  
+.header h1{
+    text-align:center;
+    color:#ffffff;
+    text-shadow: 0 0 7px #00ffff;
+  }
+  
+#sasso:hover{
+    transform: scale(1.1);
+  }
+  
+#sasso:active{
+    transform: scale(1.05);
+  }
+#carta:hover{
+    transform: scale(1.1);
+}
+
+#carta:active{
+    transform: scale(1.05);
+}
+#forbici:hover{
+    transform: scale(1.1);
+}
+#forbici:active{
+    transform: scale(1.05);
+}
+#sasso{
+    padding:10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+}
+#carta{
+    padding:10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+}
+#forbici{
+    padding:10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+}
+
+.risultati{
+    text-align:center;
+    color:#ffffff;
+
+}
+#subt{
+    color: #ffffff;
+}
+.counter{
+    color:#ffffff;
+    text-align: center;
+}
+.immagine{
+    float:left;
+    padding:0px;
+}
+

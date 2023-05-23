@@ -1,0 +1,46 @@
+<html>
+<head>
+<!--titolo della scheda-->
+<title>Morra Cinese</title>
+<!--richiamo del foglio di stile-->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!--richiamo del js-->
+<script src="main.js"></script>
+<div class="header">
+	<!--titolo che si vede nel sito-->
+	<h1>Morra Cinese</h1>
+</div>
+<p id = "subt">Gioca quante volte vuoi</p>
+<div class="immagine">
+	<!--immagini-->
+	<img src="Rock.png" alt ="sasso" onclick="gioca(1);" id="sasso" height=200>
+	<img src="Paper.png" alt ="carta" onclick="gioca(2);" id="carta" height=200>
+	<img src="Scissors.png" alt = "forbici" onclick="gioca(3);" id="forbici" height=200>
+</div>
+	<div class = "risultati">
+		<!--immagini-->
+	<h2 class = "hagiocato" >Il computer ha giocato:<p id="computer" class="text"></p></h2>
+	<p id="risultato" class="text"></p>
+    </div>
+	<div class = "counter">
+		<h2>Vinte: Pareggiate: Perse:</h2>
+		<!--tabella dove sono contenuti i risultati-->
+		<table class = "counter" align= "center">
+			<tr>
+				<td id ="vinte">0</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td id ="pareggiate" >0</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td id ="perse" >0</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
